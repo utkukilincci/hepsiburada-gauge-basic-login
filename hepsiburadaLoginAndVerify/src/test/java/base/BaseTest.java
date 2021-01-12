@@ -43,10 +43,15 @@ public class BaseTest {
         findElement(by).sendKeys(text);
     }
 
-    public void assertText(By by, String expectedText){
+    public void assertElementText(By by, String expectedText){
         String actualText = findElement(by).getText();
         Assert.assertEquals(expectedText, actualText);
     }
+
+    public void assertText(String expectedText, String actualText){
+        Assert.assertEquals(expectedText, actualText);
+    }
+
 
     public WebElement findElement(By by){
        return driver.findElement(by);

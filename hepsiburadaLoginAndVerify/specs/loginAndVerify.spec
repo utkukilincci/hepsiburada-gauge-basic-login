@@ -6,7 +6,7 @@ hesabım sayfasından hesap adının kontrol edilmesi.
 
 URl ve Kullanıcı bilgileri data klasorunun içindeki .csv dosyalarındadır.
 
-Senaryoda kullanılacak data klasorunun yolunu tanımlıyoruz.
+Senaryoda kullanılacak data tablosu.
 table:data/data.csv
 
 
