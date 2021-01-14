@@ -20,7 +20,7 @@ public class BaseTest {
 
     @BeforeScenario
     public void setup(){
-        System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","./src/resources/driver/chromedriver.exe");
         driver = new ChromeDriver();
 
     }

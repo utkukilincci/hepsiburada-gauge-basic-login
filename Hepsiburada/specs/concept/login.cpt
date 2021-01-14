@@ -1,0 +1,6 @@
+# Login işlemini <userName> ve <password> ile gerçekleştir ve <expectedName>'i kontrol et
+*"https://www.hepsiburada.com/" sayfasına git
+*Giriş yap butonunu kontrol et ve tıkla
+*Geçerli <userName> ve <password> bilgilerini gir
+*Login ekranındaki giriş yap butonuna tıkla
+*Hesabım alanında <expectedName>  isminin doğruluğunu kontrol et
